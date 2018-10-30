@@ -63,8 +63,8 @@ def classify(video):
             cv2.imwrite("result.jpg",frame)
 
 
+if (__name__=="__main__"):
 
-
-classify("./dataset/KakaoTalk_Video_20181030_1923_33_745.mp4")
+    classify("./dataset/KakaoTalk_Video_20181030_1923_33_745.mp4")
         
 

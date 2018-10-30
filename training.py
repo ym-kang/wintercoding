@@ -12,23 +12,27 @@ import model
 
 
 
-train,test =  img_gen.loadDataset()
-train_data = []
-train_labels_one_hot = []
-test_data = []
-test_labels_one_hot = []
-for dat in train:
-    train_data.append(dat[0])
-    train_labels_one_hot.append(dat[1])
-for dat in test:
-    test_data.append(dat[0])
-    test_labels_one_hot.append(dat[1])
+
 
 import numpy as np
 
 
 
 def train():
+
+
+    train,test =  img_gen.loadDataset()
+    train_data = []
+    train_labels_one_hot = []
+    test_data = []
+    test_labels_one_hot = []
+    for dat in train:
+        train_data.append(dat[0])
+        train_labels_one_hot.append(dat[1])
+    for dat in test:
+        test_data.append(dat[0])
+        test_labels_one_hot.append(dat[1])
+
     train_data = np.asarray(train_data )
     train_labels_one_hot = np.asarray(train_labels_one_hot )
     test_data = np.asarray(test_data )
@@ -70,9 +74,9 @@ def train():
     plt.xlabel('Epochs ',fontsize=16)
     plt.ylabel('Accuracy',fontsize=16)
     plt.title('Accuracy Curves',fontsize=16)
+    plt.waitforbuttonpress()
+    input("press enter to finish:")
 
-    input("finish:")
 
-
-if __name__==main:
+if (__name__=="__main__"):
     train()
