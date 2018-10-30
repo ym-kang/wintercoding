@@ -5,8 +5,6 @@ AUTHER: KANG YOUNG MUK
 ![Alt text](/result.jpg?raw=true "Output")
 
 
-레포지토리에 비디오 파일 트레이닝용 데이터 포함되어 있음.
-
 웨이트 파일(model1.h5)은 github의 최대 파일사이즈를 넘기므로 아래 링크에서 따로 다운로드하여 wintercoding 폴더에 넣어준다.
 
 :https://drive.google.com/file/d/1OznWSCvSkCsy40YZxmWG7_bCtp-fCgUO/view?usp=sharing
