@@ -14,7 +14,7 @@ AUTHER: KANG YOUNG MUK
 실행환경:
     
     Windows10
-    python3, 패키지 keras, tensorflow-gpu, numpy, matplotlib
+    python3, 패키지 keras, opencv-python, tensorflow-gpu, numpy, matplotlib
 
 
 Predict:
